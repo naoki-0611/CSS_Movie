@@ -234,8 +234,8 @@ $thirdAnimationEndTime: $secondAnimationEndTime + 1;
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
-  width: 2800px;
-  height: 1400px;
+  width: 3200px;
+  height: 1600px;
   background: #fff;
   border-radius: 50%;
   opacity: 0;
@@ -249,8 +249,12 @@ $thirdAnimationEndTime: $secondAnimationEndTime + 1;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 3em;
       height: 100%;
+      color: rgba($color: #000000, $alpha: 0.7);
+      font-size: 4vw;
+      opacity: 0;
+      animation: bound 1.5s ease-in-out forwards;
+      animation-delay: $thirdAnimationEndTime + 2.5s;
     }
   }
   &--center {
@@ -260,8 +264,12 @@ $thirdAnimationEndTime: $secondAnimationEndTime + 1;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 3em;
       height: 100%;
+      color: rgba($color: #000000, $alpha: 0.7);
+      font-size: 4vw;
+      opacity: 0;
+      animation: bound 1.5s ease-in-out forwards;
+      animation-delay: $thirdAnimationEndTime + 2.5s;
     }
   }
   &--right {
@@ -271,8 +279,12 @@ $thirdAnimationEndTime: $secondAnimationEndTime + 1;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 3em;
       height: 100%;
+      color: rgba($color: #000000, $alpha: 0.7);
+      font-size: 4vw;
+      opacity: 0;
+      animation: bound 1.5s ease-in-out forwards;
+      animation-delay: $thirdAnimationEndTime + 2.5s;
     }
   }
 }

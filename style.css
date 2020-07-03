@@ -337,8 +337,8 @@ body {
   left: 50vw;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 2800px;
-  height: 1400px;
+  width: 3200px;
+  height: 1600px;
   background: #fff;
   border-radius: 50%;
   opacity: 0;
@@ -364,8 +364,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 3em;
   height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 4vw;
+  opacity: 0;
+  -webkit-animation: bound 1.5s ease-in-out forwards;
+          animation: bound 1.5s ease-in-out forwards;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
 }
 
 .circle--center {
@@ -383,8 +389,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 3em;
   height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 4vw;
+  opacity: 0;
+  -webkit-animation: bound 1.5s ease-in-out forwards;
+          animation: bound 1.5s ease-in-out forwards;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
 }
 
 .circle--right {
@@ -402,8 +414,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 3em;
   height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 4vw;
+  opacity: 0;
+  -webkit-animation: bound 1.5s ease-in-out forwards;
+          animation: bound 1.5s ease-in-out forwards;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
 }
 
 @-webkit-keyframes bound {

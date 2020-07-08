@@ -347,6 +347,7 @@ body {
 
 .circle--left {
   left: 15vw;
+<<<<<<< HEAD:css/style.css
   -webkit-animation: boundAndCentering 2s ease forwards;
           animation: boundAndCentering 2s ease forwards;
   -webkit-animation-delay: 11.5s;
@@ -358,6 +359,54 @@ body {
           animation: bound 1.5s ease-in-out forwards;
   -webkit-animation-delay: 11.5s;
           animation-delay: 11.5s;
+=======
+}
+
+.circle--left::after {
+  content: "E";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 4vw;
+  opacity: 0;
+  -webkit-animation: bound 1.5s ease-in-out forwards;
+          animation: bound 1.5s ease-in-out forwards;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.circle--center {
+  left: 50vw;
+}
+
+.circle--center::after {
+  content: "N";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 4vw;
+  opacity: 0;
+  -webkit-animation: bound 1.5s ease-in-out forwards;
+          animation: bound 1.5s ease-in-out forwards;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+>>>>>>> 9cd6a63e4caf11796bd3dc46e7a078fcf670784b:style.css
 }
 
 .circle--right {
@@ -368,6 +417,7 @@ body {
           animation-delay: 11.5s;
 }
 
+<<<<<<< HEAD:css/style.css
 @-webkit-keyframes boundAndCentering {
   12.5% {
     width: 5vw;
@@ -398,6 +448,27 @@ body {
     opacity: 1;
     left: 50vw;
   }
+=======
+.circle--right::after {
+  content: "D";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 4vw;
+  opacity: 0;
+  -webkit-animation: bound 1.5s ease-in-out forwards;
+          animation: bound 1.5s ease-in-out forwards;
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+>>>>>>> 9cd6a63e4caf11796bd3dc46e7a078fcf670784b:style.css
 }
 
 @keyframes boundAndCentering {
